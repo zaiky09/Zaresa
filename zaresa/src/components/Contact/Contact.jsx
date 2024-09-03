@@ -9,11 +9,11 @@ function Contact() {
                 We would love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out.
             </p>
 
-            <p className="contact-description">
-                Call us at: <a href="tel:+254721322780" className="contact-phone">0721 322 780</a>
+            <p className="contact-description-2">
+                Call us: <a href="tel:+254721322780" className="contact-phone"><br></br><strong>0721 322 780 / 0710441420</strong></a>
             </p>
 
-            <form className="contact-form">
+            <form action="/submit-form" method="POST" className="contact-form">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" id="name" className="form-control" placeholder="Your Name" />

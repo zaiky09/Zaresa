@@ -22,6 +22,7 @@
 import React from "react";
 import './Homepage.css';
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 function Homepage() {
     return (
@@ -48,6 +49,12 @@ function Homepage() {
                         Learn More
                     </button>
                 </a>
+            </div>
+            <div>
+                <About/>
+            </div>
+            <div>
+                <Contact/>
             </div>
         </div>
     );

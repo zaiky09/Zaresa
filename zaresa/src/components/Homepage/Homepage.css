@@ -40,10 +40,10 @@ html {
 } */
 
 .homepage-container{
-    background: url('/home/zamil/Portfolio/Zaresa/zaresa/src/images/Convert to PNG project.png') center center/cover no-repeat;
-    height: 100vh;
+    background: url('/home/zamil/Portfolio/Zaresa/zaresa/src/images/rko4_5um6_201217_ss4mp_generated.jpg') center center/cover no-repeat;
+    height: 100%;
     width: 100%;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
