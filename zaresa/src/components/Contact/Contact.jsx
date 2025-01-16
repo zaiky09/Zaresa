@@ -10,13 +10,18 @@ function Contact() {
             </p>
 
             <p className="contact-description-2">
-                Call us: <a href="tel:+254721322780" className="contact-phone"><br></br><strong>0721 322 780 / 0710441420</strong></a>
+                Call us: <a href="tel:+254721322780" className="contact-phone"><br></br>0721 322 780 / 0710 441 420</a>
             </p>
 
             <form action="/submit-form" method="POST" className="contact-form">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input type="text" id="name" className="form-control" placeholder="Your Name" />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="number">Number</label>
+                    <input type="number" id="number" className="form-control" placeholder="Your number" />
                 </div>
 
                 <div className="form-group">

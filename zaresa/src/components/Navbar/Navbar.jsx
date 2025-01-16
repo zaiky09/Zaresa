@@ -87,9 +87,10 @@ function Navbar() {
     return (
         <nav className="nav">
             <ul className={active}>
-                <li className="nav__item">
+                {/* <li className="nav__item">
                     <a href="#" className="nav__link">Home</a>
-                </li>
+                </li> */}
+                
                 <li className="nav__item">
                     <a href="#about" className="nav__link">About</a>
                 </li>
